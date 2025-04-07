@@ -8,7 +8,7 @@ var bimpConfig = {
     protocol: 'https://',
     // Hostname and port where RESTful Simulation Service is hosted
     // host: "qbp-simulator.com:8080", // or: window.location.hostname + ":8080"
-    host: 'emmie0.github.io/bimp-ui/', // or: window.location.hostname + ":8080"
+    host: 'www.qbp-simulator.com:8080', // or: window.location.hostname + ":8080"
     // Path to the Simulation endpoint in the service
     url: '/rest/v1/Simulation',
     // Relative path prefix to BPMN and Heatmap viewer files (bpmnViewer.html and heatmapViewer.html) to be opened when requested.
