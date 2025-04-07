@@ -27,6 +27,7 @@
         "@material-ui/icons": "^4.9.1",
         "@material-ui/pickers": "^3.2.10",
         "axios": "^0.18.1",
+        "bimp-ui": "^4.0.3",
         "bpmn-js": "^6.1.2",
         "bulma": "^0.9.0",
         "date-fns": "^2.14.0",

@@ -1,3 +1,10 @@
+import * as Bimp from 'bimp-ui';
+import 'bimp-ui/bimp-ui.sass';
+
+window.addEventListener('DOMContentLoaded', function () {
+    Bimp.init('root-container', bimpConfig);
+}, true);
+
 const { Bimp } = require('./src/Bimp')
 
 var bimpConfig = {
