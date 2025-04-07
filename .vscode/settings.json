@@ -3,5 +3,5 @@
         "iostream": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled",
-    "editor.maxTokenizationLineLength": 50000
+    "editor.maxTokenizationLineLength": 20000
 }
