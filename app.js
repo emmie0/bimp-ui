@@ -10,7 +10,7 @@ var bimpConfig = {
     // host: "qbp-simulator.com:8080", // or: window.location.hostname + ":8080"
     host: 'www.qbp-simulator.com:8080', // or: window.location.hostname + ":8080"
     // Path to the Simulation endpoint in the service
-    url: '/rest/v1/Simulation',
+    url: '/qbp-simulator/rest/Simulation',
     // Relative path prefix to BPMN and Heatmap viewer files (bpmnViewer.html and heatmapViewer.html) to be opened when requested.
     linkPrefix: '',
     // API key for errorstack.com error reporting
