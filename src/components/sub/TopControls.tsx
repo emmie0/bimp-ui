@@ -109,7 +109,7 @@ export default class TopControls extends React.Component<Props, State> {
                     {!results && (
                         <div>
                             <button id="viewModelButton" onClick={this.onOpenBpmnViewerClicked} className="button is-primary">
-                                BPMN диаграм харах
+                                View BPMN Diagram
                             </button>
                             <button
                                 id="saveFileButton"
