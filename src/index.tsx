@@ -3,6 +3,7 @@ import * as ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import { ThemeProvider } from '@material-ui/core/styles'
+import './i18n'; 
 
 import ApplicationPage from './components/ApplicationPage'
 import BPMNViewerPage from './components/BPMNViewerPage'
