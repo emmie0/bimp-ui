@@ -4,6 +4,7 @@ import { Provider } from 'react-redux'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import { ThemeProvider } from '@material-ui/core/styles'
 import './i18n'; 
+import CssBaseline from '@material-ui/core/CssBaseline';
 
 import ApplicationPage from './components/ApplicationPage'
 import BPMNViewerPage from './components/BPMNViewerPage'
@@ -14,6 +15,10 @@ import { FileDefinition } from './types'
 import BPMNUpdater from './model-components/BPMNUpdater'
 import { ProcessSimulationInfo } from './model-components/ProcessSimulationInfo'
 import { theme } from './theme'
+
+const routePrefix = '/app'; // өөрийн route тохиргоог өгнө
+const config = {}; // config утгууд
+const initialFiles = []; // эхлэлд ачаалах файлууд
 
 const BPMNViewer = () => <BPMNViewerPage />
 const HeatmapViewer = () => <BPMNViewerPage showHeatmap={true} />
