@@ -3,7 +3,7 @@
 import React from 'react';
 import { UploadCloud } from 'lucide-react';
 
-const BPMNUpload = () => {
+export const BPMNUpload = () => {
   return (
     <div className="min-h-screen bg-gray-50 p-8">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
@@ -14,7 +14,7 @@ const BPMNUpload = () => {
             htmlFor="file-upload"
             className="cursor-pointer px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
           >
-            .BPMN файл сонгох
+            BPMN файл сонгох
           </label>
           <input id="file-upload" type="file" accept=".bpmn" className="hidden" />
           <p className="mt-4 text-sm text-gray-500">эсвэл энд чирж тавь</p>
@@ -39,5 +39,5 @@ const BPMNUpload = () => {
     </div>
   );
 };
-
+  
 export default BPMNUpload;
