@@ -1,7 +1,6 @@
 import * as Bimp from 'bimp-ui';
 import 'bimp-ui/bimp-ui.sass';
 
-const { Bimp } = require('./src/Bimp')
 
 var bimpConfig = {
     // Protocol for Simulation Service
